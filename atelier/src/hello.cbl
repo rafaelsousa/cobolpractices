@@ -1,11 +1,11 @@
       ******************************************************************
-      * Author:
-      * Date:
-      * Purpose:
+      * Author: Rafael de Andrade
+      * Date: 2022-03-01
+      * Purpose: Say hello
       * Tectonics: cobc
       ******************************************************************
        IDENTIFICATION DIVISION.
-       PROGRAM-ID. YOUR-PROGRAM-NAME.
+       PROGRAM-ID. HELLO-WORLD.
        DATA DIVISION.
        FILE SECTION.
        WORKING-STORAGE SECTION.
@@ -13,5 +13,5 @@
        MAIN-PROCEDURE.
             DISPLAY "Hello world"
             STOP RUN.
-       END PROGRAM YOUR-PROGRAM-NAME.
+       END PROGRAM HELLO-WORLD.
 
