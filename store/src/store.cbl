@@ -33,9 +33,37 @@
               DISPLAY '===============SALES====================' AT 1101.
               DISPLAY '07. Sell a product to a customer' AT 1201.
               DISPLAY SEPARATING-BAR AT 1301. 
-              DISPLAY 'Please, select one option...........:' AT 1401.
-              ACCEPT USER-CHOICE AT 1438.
-          
+              DISPLAY '08. Exit program' AT 1401.
+              DISPLAY SEPARATING-BAR AT 1501.               
+              DISPLAY 'Please, select one option...........:' AT 1601.
+              ACCEPT USER-CHOICE AT 1638.
+              PERFORM FLOW-CONTROL.
+
+           FLOW-CONTROL.
+              EVALUATE USER-CHOICE 
+                  WHEN 01
+                     DISPLAY 'NOT IMPLEMENTED'                     
+                  WHEN 02
+                     DISPLAY 'NOT IMPLEMENTED'
+                  WHEN 03
+                     DISPLAY 'NOT IMPLEMENTED'
+                  WHEN 04
+                     DISPLAY 'NOT IMPLEMENTED'
+                  WHEN 05
+                     DISPLAY 'NOT IMPLEMENTED'
+                  WHEN 06
+                     DISPLAY 'NOT IMPLEMENTED'
+                  WHEN 07
+                     DISPLAY 'NOT IMPLEMENTED'
+                  WHEN 08
+                     DISPLAY 'NOT IMPLEMENTED'
+                  WHEN 09
+                     DISPLAY 'NOT IMPLEMENTED'
+                  WHEN 10
+                     DISPLAY 'NOT IMPLEMENTED'
+                  WHEN OTHER
+                     CONTINUE
+              END-EVALUATE.          
 
        END PROGRAM STOCK-CONTROL.
        
